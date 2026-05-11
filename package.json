@@ -1,0 +1,42 @@
+{
+  "name": "openwrt-ix4-300d",
+  "version": "1.0.0",
+  "description": "OpenWrt build system for Iomega Storcenter IX4-300d NAS",
+  "main": "build.sh",
+  "scripts": {
+    "build": "bash build.sh",
+    "flash": "bash flash.sh",
+    "clean": "rm -rf openwrt"
+  },
+  "keywords": [
+    "openwrt",
+    "iomega",
+    "ix4-300d",
+    "nas",
+    "marvell",
+    "armada",
+    "firmware"
+  ],
+  "author": "fish-finger-flinger",
+  "license": "GPL-2.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fish-finger-flinger/openwrt-ix4-300d.git"
+  },
+  "hardware": {
+    "device": "Lenovo Iomega Storcenter IX4-300d",
+    "cpu": "Marvell Armada XP MV78230",
+    "cpu_cores": 2,
+    "cpu_speed": "1.2 GHz",
+    "ram_mb": 1024,
+    "flash_mb": 1024,
+    "flash_type": "NAND",
+    "ethernet_ports": 2,
+    "ethernet_chip": "Marvell 88E1318",
+    "sata_ports": 4,
+    "sata_chip": "Marvell 88SX7042",
+    "usb": "3.0 xHCI (Renesas D720200AF1)",
+    "rtc": "NXP pcf8563",
+    "thermal_monitor": "ADT7473"
+  }
+}
