@@ -5,7 +5,7 @@
 
 set -e
 
-OPENWRT_VERSION="23.05.0"
+OPENWRT_VERSION="25.12.3"
 TARGET="mvebu"
 SUBTARGET="armada-xp"
 
