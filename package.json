@@ -28,7 +28,7 @@
     "cpu": "Marvell Armada XP MV78230",
     "cpu_cores": 2,
     "cpu_speed": "1.2 GHz",
-    "ram_mb": 1024,
+    "ram_mb": 512,
     "flash_mb": 1024,
     "flash_type": "NAND",
     "ethernet_ports": 2,
