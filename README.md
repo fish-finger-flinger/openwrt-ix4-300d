@@ -9,7 +9,7 @@ This repository contains a complete OpenWrt build system for the **Iomega Storce
 | Component | Details |
 |-----------|----------|
 | **CPU** | Marvell Armada XP MV78230 (Dual-core ARM, 1.2 GHz) |
-| **RAM** | 2x NT5CB128M16FP-DI (2x 512MB = 1GB total) |
+| **RAM** | 2x NT5CB128M16FP-DI (2x 256MB = 512MB total) |
 | **Flash** | K9K8G08U0E (1GB NAND) |
 | **Ethernet** | 2x Marvell 88E1318-NNB2 (Gigabit, RGMII) |
 | **SATA** | Marvell 88SX7042-BDU1 (4-port controller) |
